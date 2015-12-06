@@ -15,6 +15,7 @@
 		2CAE776C1C13D019001143CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAE776A1C13D019001143CD /* LaunchScreen.storyboard */; };
 		2CAE77771C13D019001143CD /* My_First_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE77761C13D019001143CD /* My_First_AppTests.swift */; };
 		2CAE77821C13D019001143CD /* My_First_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE77811C13D019001143CD /* My_First_AppUITests.swift */; };
+		2CAE77901C13D58C001143CD /* viewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE778F1C13D58C001143CD /* viewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2CAE777D1C13D019001143CD /* My First AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My First AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAE77811C13D019001143CD /* My_First_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_First_AppUITests.swift; sourceTree = "<group>"; };
 		2CAE77831C13D019001143CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAE778F1C13D58C001143CD /* viewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2CAE77681C13D019001143CD /* Assets.xcassets */,
 				2CAE776A1C13D019001143CD /* LaunchScreen.storyboard */,
 				2CAE776D1C13D019001143CD /* Info.plist */,
+				2CAE778F1C13D58C001143CD /* viewExt.swift */,
 			);
 			path = "My First App";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAE77901C13D58C001143CD /* viewExt.swift in Sources */,
 				2CAE77641C13D019001143CD /* SecondViewController.swift in Sources */,
 				2CAE77601C13D019001143CD /* AppDelegate.swift in Sources */,
 				2CAE77621C13D019001143CD /* FirstViewController.swift in Sources */,
